@@ -1,0 +1,13 @@
+<h1>New</h1>
+
+<form >
+  <%= form_tag( new_post_path , method: :post ) do %>
+    <div>Title</div>
+    <input type="text" name="title" id="title">
+    <div>Content</div>
+    <textarea name="content" id="content" cols="30" rows="10"></textarea>
+    <input type="submit">
+  <% end %>
+</form>
+
+
