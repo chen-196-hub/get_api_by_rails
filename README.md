@@ -9,6 +9,6 @@ Railsアプリで、自作のAPIを叩いてみました。
   - showページ単体表示
 - POST
 
-####リリース予定
+#### リリース予定
 - PUT(update機能
 - DELETE機能
